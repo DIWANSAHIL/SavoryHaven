@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savory Haven | Premium Dining Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Savory<span>Haven</span></h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#booking">Reservations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="animate-slide-up">Exquisite Dining Experience</h2>
+            <h1 class="animate-slide-up">Welcome to <span>Savory Haven</span></h1>
+            <p class="animate-slide-up">Where culinary artistry meets elegant ambiance</p>
+            <a href="#booking" class="btn btn-primary animate-slide-up">Reserve a Table</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h3>Our Story</h3>
+                <h2>Discover Savory Haven</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate-left">
+                    <p>Founded in 2010, Savory Haven has been redefining the dining experience with our innovative approach to cuisine and impeccable service. Our chef brings over 20 years of international experience to create dishes that delight all senses.</p>
+                    <p>We source only the finest local ingredients, supporting sustainable farming practices while delivering exceptional flavors to your plate.</p>
+                    <div class="signature">
+                        <img src="https://i.ibb.co/5K4vVYH/signature.png" alt="Chef's Signature">
+                        <p>Executive Chef Michael Rodriguez</p>
+                    </div>
+                </div>
+                <div class="about-images animate-right">
+                    <div class="image-stack">
+                        <div class="image-stack-top">
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Restaurant Interior">
+                        </div>
+                        <div class="image-stack-bottom">
+                            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Chef Preparing Food">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="offers">
+        <div class="container">
+            <div class="offer-card animate-pop">
+                <i class="fas fa-wine-glass-alt"></i>
+                <h3>Happy Hour</h3>
+                <p>4-7 PM Daily</p>
+                <p>50% off select cocktails and appetizers</p>
+            </div>
+            <div class="offer-card animate-pop" style="animation-delay: 0.2s;">
+                <i class="fas fa-utensils"></i>
+                <h3>Sunday Brunch</h3>
+                <p>10 AM - 2 PM</p>
+                <p>Live music and bottomless mimosas</p>
+            </div>
+            <div class="offer-card animate-pop" style="animation-delay: 0.4s;">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Private Events</h3>
+                <p>Custom menus</p>
+                <p>Perfect for celebrations</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h3>Culinary Delights</h3>
+                <h2>Our Menu</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="starters">Starters</button>
+                <button class="tab-btn" data-tab="mains">Main Courses</button>
+                <button class="tab-btn" data-tab="desserts">Desserts</button>
+                <button class="tab-btn" data-tab="drinks">Drinks</button>
+            </div>
+            <div class="menu-content">
+                <!-- Starters -->
+                <div class="menu-items active" id="starters">
+                    <div class="menu-item animate-fade-in">
+                        <div class="item-info">
+                            <h4>Truffle Arancini</h4>
+                            <p>Crispy risotto balls with black truffle and mozzarella</p>
+                        </div>
+                        <div class="item-price">$14</div>
+                    </div>
+                    <div class="menu-item animate-fade-in" style="animation-delay: 0.1s;">
+                        <div class="item-info">
+                            <h4>Seared Scallops</h4>
+                            <p>With cauliflower purée and pancetta crisp</p>
+                        </div>
+                        <div class="item-price">$18</div>
+                    </div>
+                    <div class="menu-item animate-fade-in" style="animation-delay: 0.2s;">
+                        <div class="item-info">
+                            <h4>Burrata Salad</h4>
+                            <p>Fresh burrata with heirloom tomatoes and basil oil</p>
+                        </div>
+                        <div class="item-price">$16</div>
+                    </div>
+                </div>
+                
+                <!-- Mains -->
+                <div class="menu-items" id="mains">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Filet Mignon</h4>
+                            <p>8oz grass-fed beef with truffle mashed potatoes</p>
+                        </div>
+                        <div class="item-price">$38</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Pan-Seared Salmon</h4>
+                            <p>With lemon beurre blanc and asparagus</p>
+                        </div>
+                        <div class="item-price">$32</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Mushroom Risotto</h4>
+                            <p>Wild mushroom and parmesan risotto</p>
+                        </div>
+                        <div class="item-price">$26</div>
+                    </div>
+                </div>
+                
+                <!-- Desserts -->
+                <div class="menu-items" id="desserts">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Chocolate Soufflé</h4>
+                            <p>Warm chocolate soufflé with vanilla ice cream</p>
+                        </div>
+                        <div class="item-price">$12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Crème Brûlée</h4>
+                            <p>Classic vanilla bean with caramelized sugar</p>
+                        </div>
+                        <div class="item-price">$10</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Seasonal Fruit Tart</h4>
+                            <p>With chantilly cream</p>
+                        </div>
+                        <div class="item-price">$11</div>
+                    </div>
+                </div>
+                
+                <!-- Drinks -->
+                <div class="menu-items" id="drinks">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Signature Old Fashioned</h4>
+                            <p>Bourbon, demerara syrup, angostura bitters</p>
+                        </div>
+                        <div class="item-price">$16</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Havana Nights</h4>
+                            <p>Rum, pineapple, lime, coconut, angostura</p>
+                        </div>
+                        <div class="item-price">$14</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h4>Wine Selection</h4>
+                            <p>Ask your server about our extensive wine list</p>
+                        </div>
+                        <div class="item-price">$12-$25</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h3>Visual Feast</h3>
+                <h2>Our Gallery</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-zoom">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Dish 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item animate-zoom" style="animation-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Dish 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item animate-zoom" style="animation-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1398&q=80" alt="Dish 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item animate-zoom" style="animation-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Bar">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item animate-zoom" style="animation-delay: 0.4s;">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dish 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item animate-zoom" style="animation-delay: 0.5s;">
+                    <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1485&q=80" alt="Dish 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h3>Guest Experiences</h3>
+                <h2>Testimonials</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The filet mignon was cooked to absolute perfection, and the service was impeccable. This is now our favorite special occasion restaurant!"</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah J.">
+                            <h4>Sarah J.</h4>
+                            <p>Regular Guest</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"We hosted our anniversary dinner here and the staff went above and beyond to make it memorable. The wine pairing suggestions were spot on."</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                            <h4>Michael T.</h4>
+                            <p>First-time Visitor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"The ambiance is perfect for a romantic evening. The scallop appetizer was divine, and the chocolate soufflé is a must-try!"</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily R.">
+                            <h4>Emily R.</h4>
+                            <p>Food Blogger</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking section-padding" id="booking">
+        <div class="container">
+            <div class="section-title">
+                <h3>Reserve Your Table</h3>
+                <h2>Make a Reservation</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="booking-content">
+                <div class="booking-image animate-left">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Private Dining">
+                </div>
+                <div class="booking-form animate-right">
+                    <form id="reservationForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" id="time" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="guests" required>
+                                    <option value="" disabled selected>Number of Guests</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="7">7+ People</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="occasion">
+                                    <option value="" disabled selected>Special Occasion?</option>
+                                    <option value="none">No Occasion</option>
+                                    <option value="birthday">Birthday</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="engagement">Engagement</option>
+                                    <option value="business">Business Dinner</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="specialRequests" placeholder="Special Requests"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Book Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h3>Get In Touch</h3>
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-left">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Gourmet Lane, Culinary District<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (212) 555-1234</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>reservations@savoryhaven.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Thursday: 5PM - 11PM<br>
+                            Friday - Saturday: 5PM - 1AM<br>
+                            Sunday: 10AM - 3PM (Brunch), 5PM - 10PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map animate-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256751266!2d-73.9878449241646!3d40.74844097138958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876422782!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>Savory<span>Haven</span></h1>
+                    <p>Exquisite dining since 2010</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Reservations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates and special offers</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Savory Haven. All Rights Reserved by SAHIL DIWAN.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Booking Success Modal -->
+    <div class="booking-modal">
+        <div class="booking-modal-content">
+            <span class="booking-modal-close">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <h3>Reservation Confirmed!</h3>
+            <p>Thank you for booking with us. We've sent a confirmation to your email.</p>
+            <button class="btn btn-primary" id="modalCloseBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
